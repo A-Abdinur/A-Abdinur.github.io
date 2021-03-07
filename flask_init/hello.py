@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return '<h1>Hello WOrld</h1>'
+    return '<!DOCTYPE html><html><p> Its alive </p></html>'
     
 if __name__ == '__main__':
     host = os.getenv('IP', '0.0.0.0')
